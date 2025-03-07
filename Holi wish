@@ -87,7 +87,7 @@
             splash.classList.add("color-splash");
             splash.style.left = Math.random() * window.innerWidth + "px";
             splash.style.top = Math.random() * window.innerHeight + "px";
-            splash.style.backgroundColor = `rgb(${Math.random()*255}, ${Math.random()*255}, ${Math.random()*255})`;
+            splash.style.backgroundColor = rgb(${Math.random()*255}, ${Math.random()*255}, ${Math.random()*255});
             document.body.appendChild(splash);
 
             setTimeout(() => {
